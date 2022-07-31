@@ -2313,48 +2313,48 @@ if (reversed == null) { reversed = false; }
 	// Saddle
 	this.textureBtn = new lib.textureBtn();
 	this.textureBtn.name = "textureBtn";
-	this.textureBtn.setTransform(1483.45,734.8,1,1,0,0,0,78.5,24.8);
+	this.textureBtn.setTransform(677.7,639.05,1,1,0,0,0,78.5,24.8);
 
 	this.saddle = new lib.Saddle();
 	this.saddle.name = "saddle";
-	this.saddle.setTransform(800.6,663.9,1,1,0,0,0,752.9,684.8);
+	this.saddle.setTransform(492.85,363.65,0.5313,0.531,0,0,0,753.6,684.9);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.saddle},{t:this.textureBtn}]}).wait(1));
 
 	// stageBackground
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1,3,true).p("EidzidzME7nAAAMAAAE7nMk7nAAAg");
-	this.shape.setTransform(1000,1000);
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1,3,true).p("EhPrhADMCfXAAAMAAACAHMifXAAAg");
+	this.shape.setTransform(500,400);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("EidzCd0MAAAk7nME7nAAAMAAAE7ng");
-	this.shape_1.setTransform(1000,1000);
+	this.shape_1.graphics.f("#FFFFFF").s().p("EhPrBAEMAAAiAHMCfXAAAMAAACAHg");
+	this.shape_1.setTransform(500,400);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(989,979.1,1022,1031.9);
+p.nominalBounds = new cjs.Rectangle(489,389,522,422);
 // library properties:
 lib.properties = {
 	id: '113E478BE4E84F488370BFEF39F35536',
-	width: 2000,
-	height: 2000,
+	width: 1000,
+	height: 800,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/saddle_atlas_1.png?1659236043812", id:"saddle_atlas_1"},
-		{src:"images/saddle_atlas_2.png?1659236043812", id:"saddle_atlas_2"},
-		{src:"images/saddle_atlas_3.png?1659236043812", id:"saddle_atlas_3"},
-		{src:"images/saddle_atlas_4.png?1659236043812", id:"saddle_atlas_4"},
-		{src:"images/saddle_atlas_5.png?1659236043812", id:"saddle_atlas_5"},
-		{src:"images/saddle_atlas_6.png?1659236043812", id:"saddle_atlas_6"},
-		{src:"images/saddle_atlas_7.png?1659236043812", id:"saddle_atlas_7"},
-		{src:"images/saddle_atlas_8.png?1659236043812", id:"saddle_atlas_8"},
-		{src:"images/saddle_atlas_9.png?1659236043812", id:"saddle_atlas_9"},
-		{src:"images/saddle_atlas_10.png?1659236043812", id:"saddle_atlas_10"}
+		{src:"images/saddle_atlas_1.png?1659236547880", id:"saddle_atlas_1"},
+		{src:"images/saddle_atlas_2.png?1659236547881", id:"saddle_atlas_2"},
+		{src:"images/saddle_atlas_3.png?1659236547881", id:"saddle_atlas_3"},
+		{src:"images/saddle_atlas_4.png?1659236547881", id:"saddle_atlas_4"},
+		{src:"images/saddle_atlas_5.png?1659236547881", id:"saddle_atlas_5"},
+		{src:"images/saddle_atlas_6.png?1659236547881", id:"saddle_atlas_6"},
+		{src:"images/saddle_atlas_7.png?1659236547881", id:"saddle_atlas_7"},
+		{src:"images/saddle_atlas_8.png?1659236547881", id:"saddle_atlas_8"},
+		{src:"images/saddle_atlas_9.png?1659236547881", id:"saddle_atlas_9"},
+		{src:"images/saddle_atlas_10.png?1659236547881", id:"saddle_atlas_10"}
 	],
 	preloads: []
 };
